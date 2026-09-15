@@ -1,0 +1,91 @@
+.heading-bestflowerbouqet{
+    text-align: center;
+    margin: 30px;
+}
+.mainnn{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ProductCard-main-outer{
+    height: 420px;
+    width: 250px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 2px 5px black;
+    position: relative;
+}
+.ProductCard-image{
+    height: 60%;
+    width: 100%;
+}
+.ProductCard-image>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+.ProductCard-text{
+    height: 50%;
+    width: 100%;
+}
+.ProductCard-text-pc{
+    display: flex;
+    margin: 5px;
+    bottom: 40px;
+}
+.ProductCard-text-pc>p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.ProductCard-text-pc>p>del{
+    font-size: 12px;
+    font-weight: 500; 
+}
+.ProductCard-text-pc>button{
+    margin-left: 31%;
+    border: none;
+    font-size: 20px;    
+    padding: 0px 10px;
+    background-color: #5D1c32;
+    border-radius: 5px;
+    margin-bottom: 17px;
+    color: white;
+}
+.product-card-text-p{
+    font-weight: bold;
+    font-size: 14px;
+    margin: 5px;
+    margin-bottom: 25px;
+}
+.ProductCard-text>p:first-child{
+    margin: 5px;
+    font-weight: 500;
+    
+}
+.product-card-text-p>span{
+    color: green;
+    margin: 5px;
+}
+.star-reviews{
+    display: flex;
+    font-size: 13px;
+    gap: 13%;
+    margin: 5px;
+    margin-top: 10px;
+}
+.star-reviews>p>button{
+    border: none;
+    color: rgb(202, 191, 39);
+    background-color: white;
+    font-size: 15px;
+}
+.ProductCard-main-outer>button:first-child{
+    background-color: #5D1c32;
+    color: white !important ;
+    font-size: 14px;
+    border-radius: 0px 13px 13px 13px;
+    right: 10px;
+    top: 10px;
+    border: none;
+    padding: 5px;
+    position: absolute;
+}

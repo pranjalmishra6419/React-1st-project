@@ -1,0 +1,141 @@
+.header-top-outer{
+    height: 20px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 32px;
+    font-size: 12px;
+    padding: 20px;
+}
+.Header-main-outer{
+    height: 80px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: red; */
+    color:#333333;
+}
+.logo{
+    height: 100%;
+
+}
+.logo > img{
+    height: 100%;
+}
+.serch-outer{
+    height: 50px;
+    width: 40%;
+    /* background-color: green; */
+    display: flex;
+    border: 2px solid #5D1c32;
+    border-radius: 12px;
+}
+.header-search-input{
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 20px;
+    color: #333333;
+    width: 85%;
+    border-radius: 10px 0px 0px 10px;
+
+}
+.search-icon{
+    border-radius: 0px 10px 10px 0px;
+    height: 100%;
+    width: 15%;
+    background-color:  #5D1c32;   
+    color: white;
+    bottom: none;
+    outline: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.header-btns{
+    height: 100%;
+    width: 15%;
+    /* background-color: hotpink; */
+    display: flex;
+    cursor: pointer;
+
+}
+.header-login-btn{
+    height: 100%;
+    width: 50%;
+    /* background-color: #333333; */
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight:bold ;
+
+}
+.header-login-btn>span{
+    font-size: 15px;
+    color: #5D1c32;
+
+}
+.header-cart-btn>span{
+    font-size: 15px;
+    color: #5D1c32;
+
+}
+.header-cart-btn{
+    height: 100%;
+    width: 50%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+}
+.header-cart-count{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 18px !important;
+    font-weight: 400;
+    background-color: #5D1c32;
+    color: white !important;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+
+}
+.header-bottom-menu{
+    height: 40px;
+    width: 100%;
+    background-color: #5D1c32;
+}
+
+.header-bottom-menu>ul{
+    height: 100%;
+    width: 70%;
+    margin: 0 10%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+}
+.navlink{
+    color: white;
+    text-decoration: none;
+}

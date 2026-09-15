@@ -1,0 +1,88 @@
+.slider-outer{
+    width: 100%;
+
+}
+.slider-image{
+    width: 100%;
+    object-fit: cover;
+}
+
+.category-card-home-outer{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.anaya-image{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.anaya-top-image{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    margin: 10px 50px;
+    gap: 20px;
+}
+.anaya-first-image{
+    width: 45%;
+    border-radius: 5px;
+}
+.anaya-second-image{
+    width: 45%;
+    border-radius: 5px;
+}
+.anaya-bottom-image>img{
+    width: 91.5%;
+    height: 50vh;
+    overflow: hidden;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+/* flower image */
+
+.flower-image-outer{
+    /* height: 53vh; */
+    width: 100%;
+    /* display: flex;    */
+    background-color: #FFF5F7;
+}
+.flower-images-container>img{
+    width: 25%;
+    height: auto;
+}
+
+/* text home page as a about start*/
+.text-main-outer{
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: #f6e7ea;
+}
+
+.text-about-para{
+    display: flex;
+    width: 25%;
+    margin: 20px;
+}
+.text-about-para>img{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+}
+.text-about-para>div>p:first-child{
+    font-size: 18px;
+    font-weight: bold;
+}
+.text-about-para>div>p:nth-child(2){
+    font-size: 12px;
+}
